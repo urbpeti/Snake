@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.7" icons="true">  
+  <object id="1" language="java" name="snake.Game" project="NagyHazi" file="/NagyHazi/src/snake/Game.java" 
+    binary="false" label="game" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="90" y="0"/>    
+    <execution id="2">      
+      <position height="819" width="56" x="5" y="99"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="snake.Snake" project="NagyHazi" file="/NagyHazi/src/snake/Snake.java" 
+    binary="false" label="snake" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="130" y="0"/>    
+    <execution id="4">      
+      <position height="777" width="59" x="65" y="120"/>    
+    </execution>  
+  </object>  
+  <object id="38" language="java" name="java.util.ArrayList" project="NagyHazi" 
+    file="C:/Program Files/Java/jre7/lib/rt.jar" binary="true" label="body" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="7">      
+      <position height="21" width="0" x="0" y="141"/>    
+    </execution>    
+    <execution id="11">      
+      <position height="21" width="0" x="0" y="225"/>    
+    </execution>    
+    <execution id="15">      
+      <position height="21" width="0" x="0" y="309"/>    
+    </execution>    
+    <execution id="19">      
+      <position height="21" width="0" x="0" y="393"/>    
+    </execution>    
+    <execution id="23">      
+      <position height="21" width="0" x="0" y="477"/>    
+    </execution>    
+    <execution id="25">      
+      <position height="21" width="0" x="0" y="519"/>    
+    </execution>    
+    <execution id="27">      
+      <position height="21" width="0" x="0" y="561"/>    
+    </execution>    
+    <execution id="31">      
+      <position height="21" width="0" x="0" y="645"/>    
+    </execution>    
+    <execution id="33">      
+      <position height="21" width="0" x="0" y="687"/>    
+    </execution>    
+    <execution id="35">      
+      <position height="21" width="0" x="0" y="813"/>    
+    </execution>    
+    <execution id="37">      
+      <position height="21" width="0" x="0" y="855"/>    
+    </execution>  
+  </object>  
+  <object id="39" language="java" name="snake.Elem" project="NagyHazi" file="/NagyHazi/src/snake/Elem.java" 
+    binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="9">      
+      <position height="21" width="0" x="0" y="183"/>    
+    </execution>  
+  </object>  
+  <object id="40" language="java" name="snake.Elem" project="NagyHazi" file="/NagyHazi/src/snake/Elem.java" 
+    binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="13">      
+      <position height="21" width="0" x="0" y="267"/>    
+    </execution>  
+  </object>  
+  <object id="41" language="java" name="snake.Elem" project="NagyHazi" file="/NagyHazi/src/snake/Elem.java" 
+    binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="17">      
+      <position height="21" width="0" x="0" y="351"/>    
+    </execution>  
+  </object>  
+  <object id="42" language="java" name="snake.Elem" project="NagyHazi" file="/NagyHazi/src/snake/Elem.java" 
+    binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="21">      
+      <position height="21" width="0" x="0" y="435"/>    
+    </execution>  
+  </object>  
+  <object id="43" language="java" name="snake.Elem" project="NagyHazi" file="/NagyHazi/src/snake/Elem.java" 
+    binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="29">      
+      <position height="21" width="0" x="0" y="603"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="move():void">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="get(int):E">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="8" operation="setType(snake.Elem.elemtipus):void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="9"/>  
+  </message>  
+  <message id="10" operation="get(int):E">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>  
+  <message id="12" operation="setType(snake.Elem.elemtipus):void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="14" operation="get(int):E">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="16" operation="setType(snake.Elem.elemtipus):void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="18" operation="get(int):E">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="20" operation="setType(snake.Elem.elemtipus):void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="22" operation="size():int">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>  
+  <message id="24" operation="get(int):E">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="25"/>  
+  </message>  
+  <message id="26" operation="get(int):E">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>  
+  <message id="28" operation="copy(snake.Elem):void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="29"/>  
+  </message>  
+  <message id="30" operation="get(int):E">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="31"/>  
+  </message>  
+  <message id="32" operation="get(int):E">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="33"/>  
+  </message>  
+  <message id="34" operation="get(int):E">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="35"/>  
+  </message>  
+  <message id="36" operation="get(int):E">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="37"/>  
+  </message>
+</sequence-diagram>
